@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("image/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffff;
+    width: 300px;
+    height: 300px;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border-radius: 10px;
+
+}
+
+.title {
+    margin-bottom: 1.5rem;
+}
+
+textarea:focus {
+    outline: none !important;
+    border-color: #90ee90;
+    border-width: 2px;
+}
+
+.colour {
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+    margin-right: 1rem;
+    background-color: black;
+}
+
+#colourPicker {
+    border: none;
+}
+
+#text {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.output {
+    font-weight: 600;
+}
+
+.newText {
+    font-weight: 500;
+}
+
+.select {
+    margin-right: 1rem;
+}
+
+.selectColour {
+    margin-top: 1rem;
+}
+
+.colour-container {
+    display: flex;
+}
+
+
+.buttonColour {
+    padding: 10px;
+    border:none;
+    background-color: rgb(42, 236, 107);
+    color: #ffff;
+    font-size: 1em;
+    margin-top: 1em;
+}
+.buttonColour:hover {
+    background-color: rgb(10, 85, 17);
+}
+
+#changeBG {
+    margin-left: 1em;
+}
+
+.attribute {
+    color: #ffff;
+    bottom: 0%;
+    position: fixed;
+}
+
+.attribute a {
+    text-decoration: none;
+    color: rgb(237, 240, 49);
+}
